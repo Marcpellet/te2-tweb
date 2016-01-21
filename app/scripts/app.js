@@ -30,12 +30,12 @@ angular
 
     $stateProvider.state('detailRepo', {
       url : '/detailRepo/:username?repo',
-      templateUrl : 'views/detailRepo.html'
+      templateUrl : 'views/detailrepo.html'
     });
 
     $stateProvider.state('detailUser', {
       url : '/detailUser/:username',
-      templateUrl : 'views/detailUser.html'
+      templateUrl : 'views/detailuser.html'
     })
 
 

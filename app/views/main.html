@@ -6,12 +6,5 @@
     </div>
     <button type="submit" class="btn btn-default">Find Infos</button>
   </form>
-  <h2> {{ userInfos.login }} </h2>
-  <img ng-src='{{ userInfos.avatar_url }}' alt='avatar' ng-hide='userInfos == null' height="150" width="150">
-  <h3 ng-hide='repos == null'> Liste des repos </h3>
-  <ul>
-    <li ng-repeat="r in repos">
-      <a ui-sref='detailRepos({repo : r.name})'> {{ r.name }} </a>
-    </li>
-  </ul>
+  
 </div>
