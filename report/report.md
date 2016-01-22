@@ -13,7 +13,8 @@ Voici la liste des technologies utilisées:
 
 
 #Interface
-Le Application a été déployée sur GitHub Pages, elle est disponible [ici](http://marcpellet.github.io/tweb-te2-ghpages/)
+Le Application a été déployée sur GitHub Pages, elle est disponible [ici](http://marcpellet.github.io/tweb-te2-ghpages/).
+
 L'interface proposée est très simple elle est constituée de trois pages:
 * Acceuil où l'utilisateur peut rentrer le nom GitHub à rechercher
 * Page d'information sur l'utilisateur recherché qui fournit des détails sur l'utilsateur ainsi des liens vers tous ses repos
