@@ -1,5 +1,18 @@
 <div ng-controller='DetailRepoCtrl'>
-  <h1> Infos Repo </h1>
-  <a class="btn-default btn" ui-sref="detailUser({username : username})"> Retour à {{ username }} </a>
+  <div class='jumbotron'>
+    <h1> {{repo.name}} </h1>
+    <h2> Created by : {{ repo.owner.login }} </h2>
+    <h3> <u> Description </u> </h3>
+    <p> {{repo.description}} </p>
+    <p>Language : {{ repo.language }}</p>
+    <p>Forked {{ repo.forks }} times </p>
+    <a class="btn-default btn" ui-sref="detailUser({username : username})"> Back to {{ username }} </a>
+
+
+  </div>
+
+  <canvas class='chart chart-pie', chart-data='contributions', chart-labels='usernames', chart-legend='true'> </canvas>
+
+
 
 </div>

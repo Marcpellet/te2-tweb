@@ -15,7 +15,8 @@ angular
     'ngResource',
     'ui.router',
     'ngSanitize',
-    'ngTouch'
+    'ngTouch',
+    'chart.js'
   ])
   .config(function ($stateProvider, $urlRouterProvider) {
     $urlRouterProvider.otherwise('accueil');
@@ -29,7 +30,7 @@ angular
     });
 
     $stateProvider.state('detailRepo', {
-      url : '/detailRepo/:username?repo',
+      url : '/detailRepo/:username?repo?owner',
       templateUrl : 'views/detailrepo.html'
     });
 
