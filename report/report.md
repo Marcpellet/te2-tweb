@@ -1,7 +1,7 @@
 #Introduction
-Ce travail a été réalisé dans le cadre du cours de TWEB à l'HEIG-VD à Yverdon. Il fait office de deuxième note de travail écrit pour le semestre. Pour ce travail nous avions à choix quatres sujet, j'ai choisi le numéro deux qui consiste à réaliser une application Angular utilisant l'API de github afin d'afficher des informations sur les utilisateurs et les repos qui leur sont associés.
+Ce travail a été réalisé dans le cadre du cours de TWEB à l'HEIG-VD à Yverdon. Il fait office de deuxième note de travail écrit pour le semestre. Pour ce travail nous avions à choix quatres sujets, j'ai choisi le numéro deux qui consiste à réaliser une application Angular utilisant l'API de github afin d'afficher des informations sur les utilisateurs et les repos qui leur sont associés.
 
-#Technologie Utilisées
+#Technologies Utilisées
 Comme base de travail j'ai choisi d'utiliser le générateur Angular (https://github.com/yeoman/generator-angular), ce qui c'est avéré être un mauvais choix lors du déployement mais ceci sera expliqué plus en détail plus tard.
 Voici la liste des technologies utilisées:
 * Angular 
@@ -13,7 +13,7 @@ Voici la liste des technologies utilisées:
 
 
 #Interface
-Le Application a été déployée sur GitHub Pages, elle est disponible [ici](http://marcpellet.github.io/tweb-te2-ghpages/).
+l'application a été déployée sur GitHub Pages, elle est disponible [ici](http://marcpellet.github.io/tweb-te2-ghpages/).
 
 L'interface proposée est très simple elle est constituée de trois pages:
 * Acceuil où l'utilisateur peut rentrer le nom GitHub à rechercher
